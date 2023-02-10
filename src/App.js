@@ -1,7 +1,8 @@
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
-import NavBar from "./components/NavBar";
+import Navbar from "./components/Navbar";
+import Prizes from "./components/Prizes";
 import Questions from "./components/Questions";
 import Smaj from "./components/Smaj";
 
@@ -9,9 +10,10 @@ import Smaj from "./components/Smaj";
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <Navbar />
       <Hero />
       <About />
+      <Prizes />
       <Smaj />
       <Questions />
       <Footer />
