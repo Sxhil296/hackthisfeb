@@ -10,14 +10,14 @@ const Hero = () => {
     
 
                <div className='flex justify-center items-center'>
-                <p className='md:text-5xl sm:text-5xl text-xl font-bold mt-[5]'>Innovate for</p>
-                <Typed
+                <p className='md:text-5xl sm:text-5xl text-xl font-bold mt-[5]'>Innovate for good.</p>
+                {/* <Typed
                  className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 mt-[5] text-gray-400'
                 strings={['good.', 'a better tomorrow.']}
                 typeSpeed={170}
                 backSpeed={160}
                 loop
-               />
+               /> */}
                
             </div>
             <div>
