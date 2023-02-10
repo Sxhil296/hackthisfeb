@@ -8,6 +8,7 @@ import {
   FaInstagram,
   FaTwitterSquare,
 } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 const Footer = () => {
   return (
@@ -29,10 +30,14 @@ const Footer = () => {
     <div>
         <h6 className='font-bold text-2xl text-[#d04d29]'>Guides</h6>
         <ul>
-            <li className='py-2 text-sm font-bold'>Register</li>
-            <li className='py-2 text-sm font-bold'>About</li>
-            <li className='py-2 text-sm font-bold'>FAQs</li>
-            <li className='py-2 text-sm font-bold'>Prizes</li>
+          <Link to='hero'><li className='py-2 text-sm font-bold cursor-pointer'>Register</li></Link>
+          <Link to='about'><li className='py-2 text-sm font-bold cursor-pointer'>About</li></Link>
+          <Link to='prizes'><li className='py-2 text-sm font-bold cursor-pointer'>Prizes</li></Link>
+          <Link to='questions'><li className='py-2 text-sm font-bold cursor-pointer'>FAQs</li></Link>
+            
+            
+            
+            
         </ul>
     </div>
     <div>
@@ -52,6 +57,11 @@ const Footer = () => {
             <li className='py-2 text-sm font-bold'>xyz</li>
         </ul>
     </div>
+      </div>
+      <div className='mx-auto text-gray-400 mt-[10px]'>
+        
+      <p>Copyright &copy; 2023 Hack This Feb. All rights reserved.</p>
+      <hr className='bg-gray-400'/>
       </div>
     </div>
   );
