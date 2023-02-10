@@ -1,7 +1,6 @@
 import React from 'react'
 import aboutimg from "../assets/about.png"
-import { Link } from 'react-scroll'
-import {MdOutlineKeyboardArrowRight} from 'react-icons/md' 
+
 
 const About = () => {
   return (

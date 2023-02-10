@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className='shadow-md  z-50 flex justify-between items-center h-24 max-w-[1140px] mx-auto px-4 text-white'>
       <img src={navlogo} alt="nav-logo" />
       <ul className='hidden md:flex cursor-pointer'>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-Yi7UNoyptMD8_Bte7GmLk8YrPRe4pW6F9uttTr-0-S22yQ/viewform?pli=1" target='_blank' class="text-white bg-[#FF1616] hover:bg-[#d04d29] font-bold rounded-md px-6 py-1 text-center mr-3 md:mr-0 items-center"><button type="button" className='mt-3' >Register</button></a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-Yi7UNoyptMD8_Bte7GmLk8YrPRe4pW6F9uttTr-0-S22yQ/viewform?pli=1" target='_blank' rel="noreferrer" class="text-white bg-[#FF1616] hover:bg-[#d04d29] font-bold rounded-md px-6 py-1 text-center mr-3 md:mr-0 items-center"><button type="button" className='mt-3' >Register</button></a>
 
       
         <Link to='about'><li className='p-4 hover:text-[#FF1616]'>About</li></Link>
