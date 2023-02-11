@@ -17,10 +17,10 @@ const About = () => {
       create something meaningful and enjoy building while also solving the
       shared struggles of our surroundings. <br /><br />
 
-      The community encourages Inclusion and Diversity at its core and has
+      The community encourages <span className='text-[#d04d29]'>Inclusion</span> and <span className='text-[#d04d29]'>Diversity</span> at its core and has
       various events and happenings around the same as well to keep hackers
       engaged in a meaningful way. All in all, we want hackers to not just
-      participate but experience a hackathon in a true sense.
+      participate but <span className='text-[#d04d29]'>experience a hackathon </span> in a true sense.
     
       </p>
             </div>

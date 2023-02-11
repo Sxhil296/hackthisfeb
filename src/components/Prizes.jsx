@@ -12,7 +12,7 @@ const Prizes = () => {
       <img src={prizes} alt="laptop jpg" className='w-[250px] md:w-[340px] mx-auto my-4'/>
             <div className='flex flex-col justify-center text-white'>
                 <p className=' font-medium text-sm md:text-xl '>
-      Every pariticipant will be given a participation certificate and three final participants will be selected as winners.These three final participants will be given cash prizes along with the certificate.
+      Every pariticipant will be given a <span className='text-[#d04d29]'>participation certificate</span> and three final participants will be selected as winners. These three final participants will be given <span className='text-[#d04d29]'>cash prizes</span> along with the certificate.
       </p>
       <p className='font-bold mt-8 text-sm'> First Prize - ₹2500</p>
       <p className='font-bold mt-8 text-sm'> Second Prize - ₹1500</p>
