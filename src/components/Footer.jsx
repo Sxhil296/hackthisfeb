@@ -12,7 +12,8 @@ import { Link } from 'react-scroll';
 
 const Footer = () => {
   return (
-    <div className='max-w-[1140px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+<div>
+<div className='max-w-[1140px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
       <div>
         {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
         <img src={navlogo} alt="footer-logo" className='w-[100px]' />
@@ -52,18 +53,18 @@ const Footer = () => {
     <div>
         <h6 className='font-bold text-2xl text-[#d04d29]'>Sponsors</h6>
         <ul>
-            <li className='py-2 text-sm font-bold'>BrandBoostUp</li>
-            <li className='py-2 text-sm font-bold'>Credible Academy</li>
+            <a href="http:https://brandboostup.in/" target="_blank" rel="noopener noreferrer"><li className='py-2 text-sm font-bold'>BrandBoostUp</li></a>
+            <a href="http:http://credibleacademy.com/" target="_blank" rel="noopener noreferrer"><li className='py-2 text-sm font-bold'>Credible Academy</li></a>
             <li className='py-2 text-sm font-bold'>xyz</li>
         </ul>
     </div>
       </div>
-      <div className='mx-auto text-gray-400 mt-[10px]'>
-        
-      <p>Copyright &copy; 2023 Hack This Feb. All rights reserved.</p>
-      <hr className='bg-gray-400'/>
-      </div>
+      
     </div>
+    <div className='md:w-[600px] w-[350px] flex mx-auto items-center text-gray-400  mb-[20px]'>
+      <p className='items-center justify-center flex mx-auto my-2 text-sm'>Copyright &copy; 2023 HackThisFeb. All rights reserved.</p>
+      </div>
+</div>
   );
 };
 
